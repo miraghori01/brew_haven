@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f6f2ee;
+}
+   /* NAVBAR */
+        nav{
+            background:#6e361a;
+            padding:20px;
+            text-align:center;
+          
+            top:0;
+            z-index:1000;
+            position: absolute;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav a{
+            color:#ffffff;
+            margin:0 20px;
+            text-decoration:none;
+            font-weight:600;
+            letter-spacing:1px;
+        }
+
+        nav a:hover{
+            color:#f4b183;
+        }
+
